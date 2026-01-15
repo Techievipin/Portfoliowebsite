@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "export": "npm run build && node scripts/create-export.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
